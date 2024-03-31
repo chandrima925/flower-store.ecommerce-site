@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
         integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
@@ -50,7 +52,8 @@
     </nav>
 
     <div class="flex w-full hero-section">
-        <div class="flex flex-col w-1/2 justify-center items-center">
+        <div class="flex flex-col w-1/2 justify-center items-center relative">
+            <img src="img/Leafs 2.png" alt="leaf" class="absolute right-[100px] top-[110px]">
             <h1 class="text-7xl font-bold w-1/2 text-[#484a4b] text-center">
                 Flower Arrangements
             </h1>
@@ -59,7 +62,7 @@
                 <h2 class="text-4xl font-bold text-center text-[#765a33] py-6">For all special occasions</h2>
                 <div class="dot2 absolute"></div>
             </div>
-            <h3 class="text-center text-[#765a33] text-3xl w-3/4">
+            <h3 class="text-center text-[#765a33] text-3xl w-1/2">
                 Blooming Beauty Awaits: Explore Nature's Palette at Our Flower Market
             </h3>
             <div class="py-8">
@@ -75,28 +78,30 @@
         </div>
 
     </div>
-    <div class="bg-[#6b502c] h-48 flex space-x-40 data w-full justify-center items-center text-white">
-        <div class="data-1 flex flex-col">
-            <h2 class="text-4xl font-bold">3000+</h2>
+    <div class="bg-[#6b502c] h-48 flex data w-full justify-evenly items-center text-white relative">
+        <img src="img/Leafs 1.png" alt="leaf" class="absolute left-[0] bottom-[20%]">
+        <div class="data-1 flex flex-col justify-center text-center">
+            <h2 class="text-4xl font-bold counter" data-speed="100">3000</h2>
             <h3 class="py-2">Packages Sold</h3>
         </div>
-        <div class="data-2 flex flex-col">
-            <h2 class="text-4xl font-bold">5000+</h2>
+        <div class="data-2 flex flex-col justify-center">
+            <h2 class="text-4xl font-bold counter" data-speed="100">5000</h2>
             <h3 class="py-2">Bouquet Sold</h3>
         </div>
-        <div class="data-3 flex flex-col">
-            <h2 class="text-4xl font-bold">7000+</h2>
+        <div class="data-3 flex flex-col justify-center">
+            <h2 class="text-4xl font-bold counter" data-speed="500">7000</h2>
             <h3 class="py-2">Happy Clients</h3>
         </div>
-        <div class="data-4 flex flex-col">
-            <h2 class="text-4xl font-bold">10+</h2>
+        <div class="data-4 flex flex-col justify-center">
+            <h2 class="text-4xl font-bold counter" data-speed="1">10</h2>
             <h3 class="py-2">Years of Experience</h3>
         </div>
     </div>
-    
 
 
+    <script src="slick.min.js"></script>
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 
 </html>
