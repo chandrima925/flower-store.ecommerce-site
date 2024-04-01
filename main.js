@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Change image every 5 seconds (5000 milliseconds)
     setInterval(changeImage, 1000);
 });
-  
+
 // data counter
 (() => {
     const counter = document.querySelectorAll('.counter');
@@ -37,3 +37,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }, speed);
     })
 })();
+
+// product-page
+
+$(document).ready(function () {
+    var $slider = $('.slider');
+
+
+    $slider.slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        speed: 400,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        dots: true,
+    });
+});

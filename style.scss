@@ -56,4 +56,80 @@ h3 {
     h3 {
         font-family: "Montserrat Alternates", sans-serif;
     }
-} 
+}
+
+.product-page {
+    .content {
+        padding: 20px;
+
+        .slick-prev,
+        .slick-next {
+            top: -40px;
+
+            border-radius: 50%;
+        }
+
+        .slick-prev {
+            left: 92%;
+            background-color: #bcbcbc;
+            width: 2%;
+            height: 5%;
+            object-fit: cover;
+        }
+
+        .slick-next {
+            right: 50px;
+            background-color: #454545;
+            width: 2%;
+            height: 5%;
+            object-fit: cover;
+        }
+
+        .slick-prev:before {
+            content: '❮';
+            font-size: 1rem;
+        }
+
+        .slick-next:before {
+            content: '❯';
+            font-size: 1rem;
+        }
+    }
+
+    .slider {
+        margin: 30px auto 50px;
+    }
+
+    .image {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        display: block;
+        width: 85%;
+    }
+
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    p {
+        font-family: "Montserrat Alternates", sans-serif;
+    }
+
+    button {
+        font-family: "Montserrat Alternates", sans-serif;
+    }
+
+}
