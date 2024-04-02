@@ -133,3 +133,24 @@ h3 {
     }
 
 }
+
+.video {
+    .box-stroke {
+        width: 50%;
+        height: 300px;
+        border: #8a6a3e 5px solid;
+        content: ' ';
+        right: -10px;
+        top: 50px;
+        z-index: -1;
+    }
+
+    .box-fill {
+        width: 25%;
+        height: 30%;
+        content: ' ';
+        z-index: -1;
+        bottom: 10%;
+        left: 0;
+    }
+}
