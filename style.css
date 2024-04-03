@@ -128,4 +128,12 @@ h3 {
   z-index: -1;
   bottom: 10%;
   left: 0;
+}
+
+.offer-section button {
+  font-family: "Playfair Display", serif;
+}
+.offer-section h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1;
 }/*# sourceMappingURL=style.css.map */
