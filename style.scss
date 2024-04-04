@@ -165,3 +165,50 @@ h3 {
         line-height: 1;
     }
 }
+
+.content-box {
+    .img-section {
+        .box-stroke {
+            width: 30%;
+            height: 45%;
+            border: #8a6a3e 5px solid;
+            content: " ";
+            left: 20%;
+            bottom: -8%;
+            z-index: -1;
+        }
+
+        .box-fill {
+            width: 25%;
+            height: 25%;
+            content: " ";
+            z-index: -1;
+            bottom: 10%;
+            left: 78%;
+            top: -30px;
+        }
+    }
+}
+
+.content-odd-box {
+    .img-section {
+        .box-stroke {
+            width: 30%;
+            height: 45%;
+            border: #8a6a3e 5px solid;
+            content: " ";
+            right: 20%;
+            bottom: -8%;
+            z-index: -1;
+        }
+
+        .box-fill {
+            width: 25%;
+            height: 25%;
+            content: " ";
+            z-index: -1;
+            left: -3%;
+            top: -5%;
+        }
+    }
+}
